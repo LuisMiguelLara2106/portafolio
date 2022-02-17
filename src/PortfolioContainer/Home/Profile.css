@@ -1,0 +1,189 @@
+.profile-container {
+    height: 900px;
+    width: 1440px;
+    /* min-height: fit-content;  */
+    background-image: url('../../assets/Home/hero.svg');
+}
+
+.profile-parent {
+    color: #ffffff;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+.profile-details {
+    margin: 0%;
+    padding: 0%;
+    text-align: start;
+}
+
+.profile-details-name {
+    margin-top: 152px;
+    margin-bottom: 0%;   
+}
+
+.profile-details-name h1 {
+    margin: 0%;
+    width: 670px;
+    height: 120px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 120px;
+    letter-spacing: 0.05em;
+}
+
+.profile-details-role {
+    width: 692px;
+    height: 70px;
+}
+.profile-details-role h2 {
+    margin: 0%;
+    /* width: 692px;
+    height: 70px; */
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.08em;
+    margin-top: 21px;
+}
+
+
+.float-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 142px;
+    /* position: absolute; */
+    width: 220px;
+    height: 49px;
+    top: 505px;
+
+    background: #FFFFFF;
+    border-radius: 18px;
+    border: none;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 35px;
+    letter-spacing: 0.08em;
+    color: #3D73BE;
+
+    transition: all .5s ease;
+}
+
+.float-button:hover {
+    background-color: #f3f3f3;
+    cursor: pointer;
+  }
+
+.hero-image {
+    display: none;
+}
+
+@media screen and (max-width: 1255px) {
+
+    .profile-container {
+        height: 900px;
+        width: 1255px;
+        background-image: url('../../assets/Home/header_tablet.svg');
+    }
+    .profile-details-name {
+        margin-top: 250px;
+        margin-bottom: 0%;   
+    }
+    .profile-details-name h1{
+        font-weight: 800;
+        font-size: 70px;
+    }
+    .profile-details-role {
+        margin: 0%;
+    }
+    .profile-details-role h2{
+        margin: 0%;
+        width: 392px;
+        height: 70px;
+        font-weight: 600;
+        font-size: 20px;   
+    }
+    .float-button { 
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+
+    .profile-container {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 900px;
+        width: 100%;
+        /* min-width: 980px; */
+        background-image: url('../../assets/Home/hero-990.svg');
+    }
+    .profile-parent {
+        color: #ffffff;
+        margin-left: 120px;
+        margin-right: 120px;
+        margin-top: 0px;
+        height: 100%;
+        display: flex;
+        align-items:flex-start;
+    }
+    .profile-details {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .profile-details-name {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;  
+    }
+    .profile-details-name h1{
+        margin: 0%;
+        width: 359px;
+        height: 64px; 
+        font-weight: 800;
+        font-size: 48px;
+        text-align:center;
+    }
+    .profile-details-role {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+    }
+    .profile-details-role h2{
+        width: 359px;
+        height: 64px; 
+        margin: 0%;
+        padding: 0%;
+        font-weight: 600;
+        font-size: 18px;
+        text-align:center;
+    }
+    .hero-image {
+        display:unset;
+        margin-top: 40px;
+    }
+    .hero-button-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    .float-button { 
+        margin-top: 50px;
+    }
+}
